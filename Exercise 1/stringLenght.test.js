@@ -5,5 +5,7 @@ it('Successfull', () => {
 });
 
 it('Throw Error', () => {
-  expect(stringLength('')).toThrow(Error);
+  expect(() => {
+    stringLength('');
+  }).toThrow();
 });
