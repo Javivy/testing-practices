@@ -1,4 +1,3 @@
-const { expect } = require('expect');
 const capitalize = require('./capitalize.js');
 
 test('Capitalize test', () => {
